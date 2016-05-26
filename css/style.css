@@ -43,12 +43,14 @@ li {
 li * {
 	display: inline-block;
 }
+
 i {
 	padding-right: 5px;
 }
 
 .icon-check-empty {}
 
+li .icon-plus,
 .icon-check,
 .icon-trash {
 	display: none;
@@ -57,13 +59,47 @@ i {
 li p {
 	margin: 0px 0 5px;
 }
-.helpbox {
 
-	background-color: gray;
-	border: 1px black solid;
-	width: 250px;
+#user-input,
+#list-item {
+	background: transparent;
+    border: 0;
+    box-shadow: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+
+#list-item::-webkit-input-placeholder {
+  color: black;
+}
+
+#list-item:-moz-placeholder {
+  color: black;
+}
+
+#list-item::-moz-placeholder {
+  color: black;
+}
+
+#list-item:-ms-input-placeholder {
+  color: black;
+}
+
+
+
+
+.help,
+.help-box {
 	position: fixed;
 	top: 0;
 	right: 0;
+}
+
+.help-box {
+	display: none;
+	background-color: gray;
+	border: 1px black solid;
+	width: 250px;
 }
 
