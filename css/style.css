@@ -1,5 +1,6 @@
 body {
 	background-color: white;
+	background-image: url('../images/engineered_stone_countertops.jpg');
 }
 
 section {
@@ -7,16 +8,12 @@ section {
 	background-color: #F7EFA7;
 	background-size: 900px auto;
 	width: 900px;
-	/* http://hdimagelib.com/ */
-
+	margin: 50px auto;
 }
 
 header,
 main {
 	padding-left: 160px;
-}
-
-header {
 }
 
 h1 {	
@@ -71,23 +68,36 @@ li p {
 }
 
 #list-item::-webkit-input-placeholder {
-  color: black;
+	color: black;
 }
 
 #list-item:-moz-placeholder {
-  color: black;
+	color: black;
 }
 
 #list-item::-moz-placeholder {
-  color: black;
+	color: black;
 }
 
 #list-item:-ms-input-placeholder {
-  color: black;
+	color: black;
 }
 
+.crossout::-webkit-input-placeholder {
+	text-decoration: line-through;
+}
 
+.crossout:-moz-placeholder {
+	text-decoration: line-through;
+}
 
+.crossout::-moz-placeholder {
+	text-decoration: line-through;
+}
+
+.crossout:-ms-input-placeholder {
+	text-decoration: line-through;
+}
 
 .help,
 .help-box {
@@ -98,7 +108,7 @@ li p {
 
 .help-box {
 	display: none;
-	background-color: gray;
+	background-color: #C6E8F1;
 	border: 1px black solid;
 	width: 250px;
 }
